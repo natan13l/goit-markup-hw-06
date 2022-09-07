@@ -897,6 +897,14 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 358px;
+
+    transition: border 250ms var(--transition-timing-function);
+
+}
+.input-sing-form:hover,
+.input-sing-form:focus {
+border: 1px solid var(--accent-color);
+outline: 0;
 }
 .button-sing-form {
   height: 50px;
