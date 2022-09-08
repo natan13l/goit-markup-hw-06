@@ -977,6 +977,9 @@ body {
   letter-spacing: 0.06em;
 
   padding: 10px 28px;
+
+    transition: background-color 250ms var(--transition-timing-function);
+
 }
 
 .button-sing-form:hover,
